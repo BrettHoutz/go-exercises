@@ -20,7 +20,4 @@ func TestCompareTriplets(t *testing.T) {
 
 	aScore, bScore = CompareTriplets([]int{2, 5, 4}, []int{1, 3, 3})
 	assert.Equal(t, 3, aScore, "gives aScore as 3 when three scores are higher")
-
-	aScore, bScore = CompareTriplets([]int{1, 2, 4}, []int{5, 3, 3})
-	assert.Equal(t, 2, bScore, "gives bScore as 2 when two scores are higher")
 }
